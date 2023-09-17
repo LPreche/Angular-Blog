@@ -1,0 +1,24 @@
+
+.big-cardContainer{
+    width: 50vw;
+}
+
+.big-cardContainer img{
+    width: 90vw;
+}
+.big-cardDate{
+    margin: 0.5rem 0;
+    opacity: 0.2;
+    font-size: 12px;
+}
+
+.big-cardTitle{
+    width: 90vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+.big-cardResume{
+    margin-top: 1rem;
+    width: 90vw;
+    opacity: 0.5;
+}
