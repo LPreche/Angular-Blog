@@ -1,0 +1,27 @@
+.small-cardContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.small-cardContainerLeft{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+}
+.small-cardContainerLeft p{
+   
+   padding-bottom: 10px;
+   opacity: 0.2;
+   
+}
+.small-cardContainerRight{
+    width: 45vw;
+    display: flex;
+    justify-content: end;
+}
+.small-cardContainerRight img{
+    width: 35vw;
+}
