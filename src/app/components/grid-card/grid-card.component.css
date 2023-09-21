@@ -1,0 +1,22 @@
+.grid-cardList{
+   display: flex;
+   flex-direction: column;
+   width: 35vw;
+   padding-bottom: 10px;
+   
+}
+.grid-cardList p{
+    font-size: 12px;
+    opacity: 0.9;
+    color: #111111;
+}
+
+.grid-cardList h5{
+    width: 40vw;
+    color: #111111;
+    text-align: center;
+}
+
+.grid-cardList img {
+    width: 42vw;
+}
