@@ -2,7 +2,7 @@
    display: flex;
    flex-direction: column;
    width: 35vw;
-   padding-bottom: 10px;
+   padding-bottom: 1rem;
    
 }
 .grid-cardList p{
@@ -19,4 +19,22 @@
 
 .grid-cardList img {
     width: 42vw;
+}
+
+@media screen and (min-width: 1024px){
+    .grid-cardList {
+        width: 15vw;
+    }
+
+    .grid-cardList p {
+        width: 15vw;
+    }
+    .grid-cardList h5{
+        width: 15vw;
+    }
+
+    .grid-cardList img {
+        width: 15vw;
+    }
+
 }

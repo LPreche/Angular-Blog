@@ -1,8 +1,11 @@
+hr{
+    opacity: .2;
+}
 .small-cardContainer{
     display: flex;
     flex-direction: row;
     width: 90vw;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1rem 0 1.5rem 0;
 }
 .small-cardContainerLeft{
     width: 45vw;
@@ -12,7 +15,6 @@
     text-align: left;
 }
 .small-cardContainerLeft p{
-   
    padding-bottom: 10px;
    opacity: 0.2;
 }
@@ -23,4 +25,13 @@
 }
 .small-cardContainerRight img{
     width: 35vw;
+}
+
+@media screen and (min-width: 1024px){
+    .small-cardContainer{
+        width: 35vw;
+    }
+    .small-cardContainer img{
+        width: 15vw;
+    }
 }
