@@ -1,0 +1,22 @@
+.menu-barContainer {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu-barContainer ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 3vw ;
+
+
+}
+
+.menu-barContainer ul li {
+    list-style: none;
+    margin-right: 2vw;
+}
+
+.menu-barContainer ul li a {
+    text-decoration: none;
+}
