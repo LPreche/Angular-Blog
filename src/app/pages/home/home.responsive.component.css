@@ -1,0 +1,22 @@
+@media screen and (min-width: 1024px) {
+    .headerContainer{
+        margin: 0 5vw;
+    }
+    .superiorContainer{
+        flex-direction: row;
+        margin: 0 5vw;
+    }
+    .superiorContainerBigCard{
+        width: 45vw;
+    }
+    .superiorContainerSmallCard{
+        height: 40vw;
+    }
+    .inferiorGridContainer{
+        margin: 0 5vw;
+    }
+    .inferiorGridContainer ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 3vw;
+    }
+}

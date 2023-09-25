@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px){
+    .small-cardContainer{
+        width: 35vw;
+    }
+    .small-cardContainer img{
+        width: 15vw;
+    }
+}

@@ -22,30 +22,3 @@
     width: 90vw;
     opacity: 0.5;
 }
-
-
-@media screen and (min-width: 1024px) {
-    
-    .big-cardContainer {
-        width: 35vw;
-    }
-    .big-cardContainer img{
-        width: 35vw;
-    }
-    .big-cardContainer h4 {
-        width: 35vw;
-    }
-    .big-cardContainer p {
-        width: 35vw;
-    }
-    .big-cardTitle{
-        width: 35vw;
-     
-    }
-    .big-cardResume {
-        width: 35vw;
-    }
-    .smallCard{
-        width: 35vw;
-    }
-}
