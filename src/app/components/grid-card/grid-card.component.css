@@ -11,10 +11,11 @@
     color: #111111;
 }
 
-.grid-cardList h5{
+.grid-cardList a{
     width: 40vw;
     color: #111111;
     text-align: center;
+    text-decoration: none;
 }
 
 .grid-cardList img {

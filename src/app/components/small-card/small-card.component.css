@@ -1,6 +1,7 @@
 hr{
     opacity: .2;
 }
+
 .small-cardContainer{
     display: flex;
     flex-direction: row;
@@ -13,6 +14,9 @@ hr{
     flex-direction: column;
     justify-content: start;
     text-align: left;
+}
+.small-cardContainerLeft a{
+    text-decoration: none;
 }
 .small-cardContainerLeft p{
    padding-bottom: 10px;

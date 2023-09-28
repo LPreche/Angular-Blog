@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-grid-card',
@@ -9,6 +9,18 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class GridCardComponent implements OnInit {
+
+  @Input()
+  date:string = "";
+  
+  @Input()
+  image:string = "";
+
+  @Input()
+  id:string = "0";
+
+  @Input()
+  title:string ="";
 
   constructor() { }
 

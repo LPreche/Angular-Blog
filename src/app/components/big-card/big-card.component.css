@@ -1,6 +1,7 @@
 
 .big-cardContainer{
     width: 50vw;
+    margin-bottom: 10vh;
 }
 
 .big-cardContainer img{
@@ -17,6 +18,10 @@
     font-size: 20px;
     font-weight: bold;
 }
+.big-cardTitle a{
+    text-decoration: none;
+}
+
 .big-cardResume{
     margin-top: 1rem;
     width: 90vw;

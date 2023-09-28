@@ -1,0 +1,31 @@
+*{
+    background-color: #111111;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 1.5rem; 
+}
+
+.contentContainer img{
+    width: 90vw;
+    border: 5px solid rgb(140, 140, 140);
+    border-radius: 10px;
+}
+.contentContainer h1{
+    margin-top: 1.5rem;
+    font-size: 21px;
+}
+.contentContainer p {
+    margin: 1.5rem 1.5rem;
+    text-align: justify;
+}
+.contentBackButton{
+    border: 3px solid rgb(140, 140, 140);
+    padding: 0.30rem 1rem;
+}
+.contentBackButton a {
+    text-decoration: none;
+}
